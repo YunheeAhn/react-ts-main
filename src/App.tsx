@@ -3,6 +3,7 @@ import theme from './theme/theme'
 import Routers from './Routers'
 import { globalStyles } from './theme/globalStyles'
 
+
 const App: React.FC = () => (
     <ThemeProvider theme={theme}>
         {globalStyles}
